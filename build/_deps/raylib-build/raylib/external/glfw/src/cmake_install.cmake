@@ -1,4 +1,4 @@
-# Install script for directory: /home/klasnich881/personal/proceduralMaze/build/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: /home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -16,7 +16,7 @@ FetchContent_MakeAvailable(raylib)
 
 add_executable(raycaster
     src/main.cpp
-    src/DungeonMap.cpp
+    src/MazeMap.cpp
 )
 
 target_include_directories(raycaster PRIVATE include)

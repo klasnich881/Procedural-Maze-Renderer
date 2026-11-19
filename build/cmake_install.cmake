@@ -1,4 +1,4 @@
-# Install script for directory: /home/klasnich881/personal/proceduralMaze
+# Install script for directory: /home/nip/projects/mazeRenderer/Procedural-Maze-Renderer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/klasnich881/personal/proceduralMaze/build/_deps/raylib-build/cmake_install.cmake")
+  include("/home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/_deps/raylib-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/klasnich881/personal/proceduralMaze/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

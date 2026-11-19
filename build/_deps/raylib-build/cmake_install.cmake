@@ -1,4 +1,4 @@
-# Install script for directory: /home/klasnich881/personal/proceduralMaze/build/_deps/raylib-src
+# Install script for directory: /home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/_deps/raylib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/klasnich881/personal/proceduralMaze/build/_deps/raylib-build/raylib/cmake_install.cmake")
+  include("/home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/_deps/raylib-build/raylib/cmake_install.cmake")
 
 endif()
 

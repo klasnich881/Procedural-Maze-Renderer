@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/raycaster.dir/src/DungeonMap.cpp.o"
-  "CMakeFiles/raycaster.dir/src/DungeonMap.cpp.o.d"
+  "CMakeFiles/raycaster.dir/src/MazeMap.cpp.o"
+  "CMakeFiles/raycaster.dir/src/MazeMap.cpp.o.d"
   "CMakeFiles/raycaster.dir/src/main.cpp.o"
   "CMakeFiles/raycaster.dir/src/main.cpp.o.d"
   "raycaster"

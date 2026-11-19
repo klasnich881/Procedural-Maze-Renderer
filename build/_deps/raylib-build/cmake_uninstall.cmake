@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/klasnich881/personal/proceduralMaze/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/klasnich881/personal/proceduralMaze/build/install_manifest.txt")
+if(NOT EXISTS "/home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/install_manifest.txt")
 endif()
 
-file(READ "/home/klasnich881/personal/proceduralMaze/build/install_manifest.txt" files)
+file(READ "/home/nip/projects/mazeRenderer/Procedural-Maze-Renderer/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
